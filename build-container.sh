@@ -19,7 +19,7 @@
 set -e # Any command which returns non-zero exit code will cause this shell script to exit immediately
 set -x # Activate debugging to show execution details: all commands will be printed before execution
 
-containerName=${1:-projector-idea-c}
+containerName=${1:-tonypepe/projector-idea-c-jdk}
 downloadUrl=${2:-https://download.jetbrains.com/idea/ideaIC-2021.1.1.tar.gz}
 
 # build container:
